@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+.hero-section{    
+    padding: 7% 7%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-image: url('./images/header-bg.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.biography-section{  
+    padding: 7% 7%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-image: url('./images/biography-bg.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ h2{
+    font-size: 25px;
+    color: #444;
+}
+ h1{
+    color: crimson;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+ p{
+    color: gray;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+   color: #fff;
+   background: crimson;
+   border: none;
+   outline: none;
+   border: 1px solid crimson;
+   border-radius: 5px;
+   padding:8px 20px;
+}
+.text-container{
+    width: 40%;
+}
+.banner-container{
+    width: 40%;
+}
+.banner-container img{
+    width: 100%;
+}
+
+.latest-work-section{
+    /* width: 100%; */
+    padding: 3% 7%;
+}
+.latest-works-container{
+}
+.work-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.latest-works-container .work-img{
+   flex: 1;
+   overflow: hidden;
+}
+.latest-works-container .work-img img{
+   width: 100%;
+   transition: .5s ease-in-out;
+}
+.title{
+    text-align: center;
+}
+
+
+
+.client-section{
+    background-image: url('./images/footer-bg.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3% 0;
+    }
+.mail-box span{
+    font-size: 14px;
+}
+.mail-box{
+    background:crimson;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+footer{}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+@media(max-width:992px){
+
+    
+    .hero-section{    
+        padding: 7% 5%;
+        flex-direction:column;
+    }
+    
+    .text-container{
+        width:100%;
+    }
+    .banner-container{
+        margin-top: 50px;
+        width:100%;
+    }
+    
+    .biography-section{  
+        padding: 20% 7%;
+        flex-direction: column;
+    }
+
+    
+.latest-work-section{
+    padding: 7% 7%;
+}
+    .work-images{
+        flex-direction: column;
+    }
+    .latest-works-container .work-img{
+        margin-top: 20px;
+     }
+
+     
+.client-section{
+    padding: 7% 7%;
+    }
+}
